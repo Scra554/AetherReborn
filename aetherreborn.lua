@@ -1054,3 +1054,7 @@ SetTab:Button("Unload aetherreborn Resummon", function()
 end)
 
 print("[aetherreborn Resummon] Loaded! RShift = toggle UI")
+
+print("[Ira Resummon] Loaded! RShift = toggle UI")
+task.wait(5)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sodiumhub/Ira/refs/heads/main/resummon", true))()
